@@ -1,0 +1,2 @@
+df = pd.read_csv('/Users/mayakilbertus/Documents/test2/klassifikationen_neu2.csv')
+df.pivot_table(values='Anteil', index=df.index, columns='Klassifikationen', aggfunc='first')
